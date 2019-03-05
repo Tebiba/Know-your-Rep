@@ -1,0 +1,49 @@
+/*------------------
+  Header section
+---------------------*/
+#header {
+  background-color: black;
+  height:100vh;
+  color: white;
+  background-position: top left;
+  background-size: cover;
+  margin: 0px;
+  padding:0px;
+}
+
+
+#links ul {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#links li {
+  list-style: none;
+  float:left;
+  margin:1em;
+	color: white;
+}
+
+div.rightlinks {
+  float: right;
+}
+
+.clearfloats {
+  clear:both;
+  margin: 0px;
+  padding: 0px;
+}
+
+.spacer {
+  height:30px;
+}
+
+/*------------------
+  Hero section
+---------------------*/
+
+.h1 {
+	color: white;
+	padding-left: 20px;
+}
