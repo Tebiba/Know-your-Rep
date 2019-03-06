@@ -68,6 +68,22 @@ div.rightlinks {
 	display: none;
 }
 
+#mp-showing {
+	display: none;
+}
+
+#women-rep-showing {
+	display: none;
+}
+
+#mcas-showing {
+	display: none;
+}
+#agriculture-showing {
+	display: none;
+}
+
+
 
 * {
   box-sizing: border-box;
@@ -104,9 +120,34 @@ form.example::after {
   clear: both;
   display: table;
 
-	.well {
-		background-color: black;
+	.sidebar {
+	  float: left;
+	  width: 15%;
+	  display: inline-block;
+	  min-height: 100%;
+	  position: relative;
 	}
+	#agriculture-showing, #variables-hidden, #namingConventions-hidden,
+	#functions-hidden,#strings-hidden,#methods-hidden,#arguments-hidden,#parameters-hidden,
+	#return-hidden,#chainingMethods-hidden,#booleans-hidden,#undefined-hidden,
+	#NaN-hidden,#escape-hidden,#alert-hidden,#comments-hidden,#jQuery-hidden
+	,#attributes-hidden{
+	  display: none;
+	}
+
+	.clickable {
+	  color: white;
+	  cursor: pointer;
+	}
+
+	.clickable:hover {
+	  text-decoration: underline;
+	}
+
+
+
+
+
 
 	<form class="example" action="/action_page.php" style="margin:80;max-width:200px">
 		<input type="text" placeholder="Search.." name="search2">
