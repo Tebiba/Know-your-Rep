@@ -136,7 +136,7 @@ form.example::after {
 	}
 
 	.clickable {
-	  color: white;
+	  color: #0088cc;
 	  cursor: pointer;
 	}
 
