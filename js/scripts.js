@@ -13,3 +13,10 @@ $(document).ready(function() {
       $("#twaha-hidden").toggle();
     });
   });
+
+  $(document).ready(function() {
+      $(".clickable-senator").click(function() {
+        $("#anwar-showing").toggle();
+        $("#anwar-hidden").toggle();
+      });
+    });

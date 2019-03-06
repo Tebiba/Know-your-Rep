@@ -9,36 +9,65 @@
     <title>Know Your Representative</title>
   </head>
   <body>
-    <div class="container">
+    <div class="all-round-padding">
 
 
       <!-- Header section -->
 
 
       <div id="header">
+        <div class="spacer"></div>
+
          <a href="./index.html" class="site-logo"><img src="./img/logo.png" alt=""></a>
+         <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+           <input type="text" placeholder="Search.." name="search2">
+           <button type="submit"><i class="fa fa-search"></i></button>
+         </form>
+         <div class="clearfloats"></div>
 
         <div id="links">
-
-              <div class="rightlinks">
-          <ul style="color: white">
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#search">Search</a></li>
+          <div class="rightlinks">
+            <ul style="color: white">
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#signIn">Sign In</a></li>
             <li class="nav-item"><a class="nav-link" href="#signIn">Sign Up</a></li>
             <li class="nav-item"><a class="nav-link" href="#projects">Contacts</a></li>
-            <a href="#">Sign In</a> /
-              <a href="#">Sign Up</a>
+
           </ul>
         </div>
         <div class="clearfloats"></div>
         </div>
-        <h2>Lamu County</h2>
-        <div id="governor">
-          <button onclick="myFunction()" style="height:90px; width:187px; border: 15px; color: white; font-size: 16px; background-color: black; font-family: serif;text-align: center;">GOVERNOR</button>
-          <img src="img/Hon._Fahim_Yasin_Twaha.jpg">
+
+
+        <h1 style="font-family: serif; font-size: 59px; padding: 30px;">Know your representatives; <br>Lamu County</h1>
+        <div class="col-md-4">
+          <div id="twaha-hidden"></div>
+          <div id="twaha-showing">
+            <img src="img/Hon._Fahim_Yasin_Twaha.jpg">
+            <img src="img/Deputy_Governor;_Hon._Abdulhakim_Aboud_Bwana.jpg">
           </div>
-        <button onclick="senator" style="height:90px; width:187px; color: #ffffff; font-size: 16px; background-color: black; font-family: serif;text-align: center;">SENATOR</button>
-        <button onclick="members-of-parliament" style="height:90px; width:187px; color: #ffffff; font-size: 16px; background-color: black; font-family: serif;text-align: center;">MEMBERS OF PARLIAMENT</button>
-        <button onclick="women-rep" style="height:90px; width:187px; color: #ffffff; font-size: 16px; background-color: black; font-family: serif;text-align: center;">WOMEN REPRESENTATIVE</button>
-        <button onclick="mcas" style="height:90px; width:187px; color: #ffffff; font-size: 16px; background-color: black; font-family: serif;text-align: center;">MEMBERS OF THE COUNTY ASSEMBLY (MCAs)</button>
+          <div><button onclick="governor" class="clickable" style="height:90px; width:187px; border: 15px; color: white; font-size: 16px; background-color: black; font-family: serif; text-align: center;">GOVERNOR</button></div>
+
+        <div class="spacer1"></div>
+
+        <div id="anwar-hidden"></div>
+        <div id="anwar-showing">
+          <img src="img/Senator-Anwar-loitiptip-.jpg">
+        </div>
+        <div><button onclick="senator" class="clickable-senator"style="height:90px; width:187px; color: #ffffff; font-size: 16px; background-color: black; font-family: serif;text-align: center;">SENATOR</button></div>
+
+        <div class="spacer1"></div>
+
+        <div><button onclick="members-of-parliament" class="clickable-members-of-parliament" style="height:90px; width:187px; color: #ffffff; font-size: 16px; background-color: black; font-family: serif;text-align: center;">MEMBERS OF PARLIAMENT</button></div>
+
+        <div class="spacer1"></div>
+
+        <div><button onclick="women-rep" class="clickable-women-rep"style="height:90px; width:187px; color: #ffffff; font-size: 16px; background-color: black; font-family: serif;text-align: center;">WOMEN REPRESENTATIVE</button></div>
+
+        <div class="spacer1"></div>
+
+        <div><button onclick="mcas" class="clickable-mcas"style="height:90px; width:187px; color: #ffffff; font-size: 16px; background-color: black; font-family: serif;text-align: center;">MEMBERS OF THE COUNTY ASSEMBLY (MCAs)</button></div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
