@@ -103,3 +103,12 @@ form.example::after {
   content: "";
   clear: both;
   display: table;
+
+	.well {
+		background-color: black;
+	}
+
+	<form class="example" action="/action_page.php" style="margin:80;max-width:200px">
+		<input type="text" placeholder="Search.." name="search2">
+		<button type="submit"><i class="fa fa-search"></i></button>
+	</form>
