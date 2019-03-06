@@ -22,8 +22,8 @@ $(document).ready(function() {
     });
     $(document).ready(function() {
         $(".clickable-members-of-parliament").click(function() {
-          $("#mpshowing").toggle();
-          $("#mphidden").toggle();
+          $("#mp-showing").toggle();
+          $("#mp-hidden").toggle();
         });
       });
       $(document).ready(function() {
