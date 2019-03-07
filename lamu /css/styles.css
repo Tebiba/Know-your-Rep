@@ -11,6 +11,11 @@
   padding:0px;
 }
 
+#coast {
+  background: url(../img/AboutLamu2.jpg);
+
+  }
+
 
 #quote {
   color: #273D2D;
@@ -156,8 +161,6 @@ div.rightlinks {
   border: none;
   font-size: 14px;
   color: black;
-
-
 }
 
 @media screen and (max-width: 600px) {
@@ -173,4 +176,23 @@ div.rightlinks {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+
+.agriculture {
+  display: none;
+}
+.health {
+  display: none;
+}
+.environment {
+  display: none;
+}
+.culture {
+  display: none;
+}
+.transport {
+  display: none;
+}
+.county {
+  display: none;
 }

@@ -30,3 +30,51 @@ $(document).ready(function() {
               $("#mcas-hidden").toggle();
             });
           });
+          $(document).ready(function() {
+              $(".clickable-agriculture").click(function() {
+
+                // $("div#agriculture-showing").toggle();
+                // $("div#agriculture-hidden").toggle();
+                $(".agriculture").toggle();
+              });
+            });
+            $(document).ready(function() {
+                $(".clickable-health").click(function() {
+
+                  // $("div#agriculture-showing").toggle();
+                  // $("div#agriculture-hidden").toggle();
+                  $(".health").toggle();
+                });
+              });
+              $(document).ready(function() {
+                  $(".clickable-environment").click(function() {
+
+                    // $("div#Environment-showing").toggle();
+                    // $("div#environment-hidden").toggle();
+                    $(".environment").toggle();
+                  });
+                });
+                $(document).ready(function() {
+                    $(".clickable-culture").click(function() {
+
+                      // $("div#culture-showing").toggle();
+                      // $("div#culture-hidden").toggle();
+                      $(".culture").toggle();
+                    });
+                  });
+                  $(document).ready(function() {
+                      $(".clickable-transport").click(function() {
+
+                        // $("div#transport-showing").toggle();
+                        // $("div#transport-hidden").toggle();
+                        $(".transport").toggle();
+                      });
+                    });
+                    $(document).ready(function() {
+                        $(".clickable-county").click(function() {
+
+                          // $("div#county-showing").toggle();
+                          // $("div#county-hidden").toggle();
+                          $(".county").toggle();
+                        });
+                      });
