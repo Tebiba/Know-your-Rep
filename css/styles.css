@@ -2,13 +2,28 @@
   Header section
 ---------------------*/
 #header {
-  background-color: black;
+  background: url(../img/hero1.jpg);
   height:100vh;
   color: white;
   background-position: top left;
   background-size: cover;
   margin: 0px;
   padding:0px;
+}
+
+a:link, a:visited  {
+  color: #273D2D;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 1em;
+
+}
+
+a:hover   {
+text-decoration: underline;
 }
 
 
@@ -24,8 +39,35 @@
 #links li {
   list-style: none;
   float:left;
-  margin:1em;
+  margin:2em;
+  margin-left:auto;
 	color: white;
+}
+
+#quote {
+  color: #273D2D;
+  padding: 20px;
+  font-family: serif;
+  font-weight: ;
+}
+.quot {
+  padding: 4em;
+  background-color: rgba(39, 61, 45, 0.2);
+}
+
+.quot h3 {
+  font-size: 20px;
+  color: #273D2D;
+  line-height: 35px;
+  font-style: normal;
+  text-align: center;
+
+}
+
+.services h3{
+  font-size: 20px;
+  color: white;
+
 }
 
 div.rightlinks {
@@ -79,64 +121,13 @@ div.rightlinks {
 #mcas-showing {
 	display: none;
 }
+
 #agriculture-showing {
 	display: none;
 }
 
-
-
-* {
-  box-sizing: border-box;
-}
-
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 14px;
-  border: 0.5px solid grey;
-  float: left;
-  width: 80%;
-  background: #bdbdbd;
-}
-
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-	#bdbdbd
-  background: #424242;
-  color: black;
-  font-size: 14px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}
-
-form.example button:hover {
-  background: #0b7dda;
-}
-
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-
-	.sidebar {
-	  float: left;
-	  width: 15%;
-	  display: inline-block;
-	  min-height: 100%;
-	  position: relative;
-	}
-	#agriculture-showing, #variables-hidden, #namingConventions-hidden,
-	#functions-hidden,#strings-hidden,#methods-hidden,#arguments-hidden,#parameters-hidden,
-	#return-hidden,#chainingMethods-hidden,#booleans-hidden,#undefined-hidden,
-	#NaN-hidden,#escape-hidden,#alert-hidden,#comments-hidden,#jQuery-hidden
-	,#attributes-hidden{
-	  display: none;
-	}
-
 	.clickable {
-	  color: #0088cc;
+	  color: white;
 	  cursor: pointer;
 	}
 
@@ -144,12 +135,22 @@ form.example::after {
 	  text-decoration: underline;
 	}
 
+  #logo {
+  height: 100px;
+  vertical-align: middle;
+}
 
+.p{
+  font-family: serif;
+  font-size: 14;
+}
 
-
-
-
-	<form class="example" action="/action_page.php" style="margin:80;max-width:200px">
-		<input type="text" placeholder="Search.." name="search2">
-		<button type="submit"><i class="fa fa-search"></i></button>
-	</form>
+#footer {
+  background-color: #273D2D;
+  height:35vh;
+  color: white;
+  background-position: top left;
+  background-size: cover;
+  margin: 0px;
+  padding-top:20px;
+}

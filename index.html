@@ -13,103 +13,260 @@
       <div id="header">
         <div class="spacer"></div>
 
-         <a href="./index.html" class="site-logo"><img src="./img/logo.png" alt=""></a>
-
 
         <div id="links">
           <div class="rightlinks">
-            <ul style="color: white">
+            <input type="text" placeholder="Search..">
+            <ul >
               <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#signIn">Sign In</a></li>
-            <li class="nav-item"><a class="nav-link" href="#signUp">Sign Up</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#signInSignUp">Sign In / Sign Up</a></li>
 
+            <li class="nav-item"><a class="nav-link" href="#poll">Poll</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
           </ul>
         </div>
         <div class="clearfloats"></div>
         </div>
 
 
-        <h1 style="font-family: serif; font-size: 35px; padding: 30px;">KNOW YOUR <br>REPRESENTATIVES <br>Lamu County</h1>
-        <div class="col-md-4"style="padding: 30px;">
-          <div><button onclick="governor" class="clickable" style="height:60px; width:160px; color: white; font-size: 13px; background-color: black; font-family: serif; text-align: center;">GOVERNOR</button></div><div id="twaha-hidden"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <h1 style="font-family: serif; font-size: 50px; font-weight: bold;text-align: center; padding: 60px;">Lamu County</h1>
+
+        <div class="row">
+          <div class="col-md-1"></div>
+
+        <div class="col-md-2">
+          <div><button onclick="governor" class="clickable" style="height:60px; width:250px; color: white; font-size: 13px; background-color: #273D2D; font-family: serif; text-align: center;">GOVERNOR</button></div><div id="twaha-hidden"></div>
             <div id="twaha-showing">
-                <div class="col-md-5"><img src="img/Fahim Yasin Twaha.jpg"><p style="background color: black"></p></div>
-                <div class="col-md-2"></div>
-                <div class="col-md-5">  <img src="img/Abdulhakim Aboud Bwana.jpg"><p style="background color: black"></p></div>
+                <div><img style="padding: 10px;" src="img/Fahim Yasin Twaha.jpg"></div>
+                <div></div>
+                <div><img src="img/Abdulhakim Aboud Bwana.jpg"></div>
+            </div>
             </div>
 
-        <div class="spacer1"></div>
-
-        <div><button onclick="senator" class="clickable-senator"style="height:60px; width:160px; color: #ffffff; font-size: 13px; background-color: black; font-family: serif;text-align: center;">SENATOR</button></div>
+        <div class="col-md-2">
+        <div><button onclick="senator" class="clickable-senator"style="height:60px; width:250px; color: #ffffff; font-size: 13px; background-color: #273D2D; font-family: serif;text-align: center;">SENATOR</button></div>
         <div id="anwar-hidden"></div>
         <div id="anwar-showing">
-          <img src="img/Anwar Loitiptip.jpg">
+          <img style="padding: 10px;"src="img/Anwar Loitiptip.jpg"></div>
         </div>
 
-        <div class="spacer1"></div>
 
-        <div><button onclick="members-of-parliament" class="clickable-members-of-parliament" style="height:60px; width:160px; color: #ffffff; font-size: 13px; background-color: black; font-family: serif;text-align: center;">MEMBERS OF PARLIAMENT</button></div>
+        <div class="col-md-2">
+        <div><button onclick="members-of-parliament" class="clickable-members-of-parliament" style="height:60px; width:250px; color: #ffffff; font-size: 13px; background-color: #273D2D; font-family: serif;text-align: center;">MEMBERS OF PARLIAMENT</button></div>
         <div id="mp-showing">
-            <div class="col-md-5"><img src="img/Sharif Ali Athman.jpg"><p style="background color: black"></p></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-5"> <img src="img/Stanley Muthama.jpg"><p style="background color: black"></p></div>
+            <div><img style="padding: 10px;" src="img/Sharif Ali Athman.jpg"></div>
+            <div></div>
+            <div><img src="img/Stanley Muthama.jpg"></div>
+        </div>
         </div>
 
-        <div class="spacer1"></div>
-
-        <div><button onclick="women-rep" class="clickable-women-rep"style="height:60px; width:160px; color: #ffffff; font-size: 13px; background-color: black; font-family: serif;text-align: center;">WOMEN REPRESENTATIVE</button></div>
+      <div class="col-md-2">
+        <div><button onclick="women-rep" class="clickable-women-rep"style="height:60px; width:250px; color: #ffffff; font-size: 13px; background-color: #273D2D; font-family: serif;text-align: center;">WOMEN REPRESENTATIVE</button></div>
         <div id="women-rep-showing">
-            <img src="img/Ruweida Obbo.jpg">
+            <img style="padding: 10px;" src="img/Ruweida Obbo.jpg">
+        </div>
         </div>
 
-        <div class="spacer1"></div>
-
-        <div><button onclick="mcas" class="clickable-mcas"style="height:60px; width:160px; color: #ffffff; font-size: 13px; background-color: black; font-family: serif;text-align: center;">MEMBERS OF THE COUNTY ASSEMBLY</button></div>
+        <div class="col-md-2">
+        <div><button onclick="mcas" class="clickable-mcas"style="height:60px; width:250px; color: #ffffff; font-size: 13px; background-color: #273D2D; font-family: serif;text-align: center;">MEMBERS OF THE COUNTY ASSEMBLY</button></div>
         <div id="mcas-showing">
           <div class="row">
-            <div class="col-md-5"><img src="img/James Komu.jpg"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-5"><img src="img/Paul Kimani.jpg"></div>
+            <div ><img style="padding: 10px;"src="img/James Komu.jpg"></div>
+            <div ><img src="img/Paul Kimani.jpg"></div>
+          </div>
+
+
+          <div class="row">
+            <div><img src="img/Azhar Mbarak.jpg"></div>
+            <div></div>
+            <div><img src="img/Anthony Njomo.jpg"></div>
           </div>
 
           <div class="row">
-            <div class="col-md-5"><img src="img/Azhar Mbarak.jpg"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-5"><img src="img/Anthony Njomo.jpg"></div>
+            <div><img src="img/Anab Haji.jpg"></div>
+            <div></div>
+            <div><img src="img/Monica Njambi.jpg"></div>
           </div>
 
-          <div class="row">
-            <div class="col-md-5"><img src="img/Anab Haji.jpg"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-5"><img src="img/Monica Njambi.jpg"></div>
           </div>
+
+          </div>
+          <div class="col-md-1"></div>
 
         </div>
         </div>
         <div class="col-md-4"></div>
-        <div class="col-md-2"></div>
 
 
-        <div class="col-md-2">
-          <div class="sidebar">
-            <div id="agriculture-showing"><p><span class="clickable-agriculture">Agriculture</span></p></div>
-            <div id="agriculture-hidden"><p><span class="clickable-agriculture">(a) crop and animal husbandry;
-                <br>(b) livestock sale yards;
-                <br>(c) county abattoirs;
-                <br>(d) plant and animal disease control; and
-                <br>(e) fisheries.</span> </p>
+          <div class="well" style="font-family: serif; font-size: 13px; Background-color: #273D2D; border:30px;">
+            <div class="row">
+              <div class="col-md-6">
+            <h3 id="services"  style="text-align:left; font-family: serif; font-size: 30px; font-color: White;">Services</h3>
+            <ul style="text-align: center;">
+              <p class="nav-item"><a class="nav-link"style="color: #ffffff;" href="#agriculture">Agriculture</a></p>
+            <p class="nav-item"><a class="nav-link" style="color: #ffffff;" href="#healthServices">Health services</a></p>
+            <p class="nav-item"><a class="nav-link" style="color: #ffffff;" href="#environment">Environment</a></p>
+            <p class="nav-item"><a class="nav-link" style="color: #ffffff;" href="#culture">Culture</a></p>
+            <p class="nav-item"><a class="nav-link"style="color: #ffffff;" href="#transport">Agriculture</a></p>
+            <p class="nav-item"><a class="nav-link"  style="color: #ffffff;"href="#trade">Trade</a></p>
+            <p class="nav-item"><a class="nav-link" style="color: #ffffff;"href="#planningAndDevelopment">Planning and Development</a></p>
+            <p class="nav-item"><a class="nav-link" style="color: #ffffff;"href="#education">Education</a></p>
+            <p class="nav-item"><a class="nav-link" style="color: #ffffff;"href="#security">Security</a></p>
+          </ul>
+
             </div>
 
-            <p>2. Health services</p>
-            <p>3. Environment</p>
-            <p>4. Culture</p>
-            <p>5. Transport</p>
-            <p>6. Trade</p>
-            <p>7. Planning and development,</p>
-            <p>8. Education</p>
-            <p>9. Security</p>
 
+            <div class="col-md-6 ">
+            <img src="../img/AboutLamu2.jpg" alt="Lamu">
+            </div>
+            </div>
+            </div>
+            </div>
 
-        </div>
+      <div class="clearfloats"></div>
+      <div class="quot">
+      <h2 style="text-align: center; font-family: serif;">About Lamu County<h2>
+        <h3 id="quote" style="font-family: serif;">Lamu County is located in the Northern Coast of Kenya and is one of the Six Coastal Counties in Kenya. It borders Tana River County in the southwest, Garissa County to the north, Republic of Somalia to the northeast and the Indian Ocean to the South. It lies 1° 40’ and 2° 30’south and longitude 40° 15’ and 40° 38’south. The County has a land surface of 6,273.1 km that include the mainland and over 65 islands that form the Lamu Archipelago. The total length of the coastline is 130 km while land water mass area stands at 308 km. <br><br>The County has 2 constituencies namely Lamu West and Lamu East. These two also consist of the two districts referred to as the sub-counties in Lamu County. Lamu West has Amu Mkomani, Shela, Hindi, Mkunumbi, Hongwe, Bahari and Witu Divisions while Lamu East has Faza, Basuba and Kiunga divisions. There are 10 wards, 23 locations, and 38 sub-locations in the County<br></blockquote>
+        </h3>
       </div>
+
+      <div class="spacer1"></div>
+        <div class="spacer1"></div>
+        <div class="spacer1"></div>
+          <div class="spacer1"></div>
+
+
+      <h2 style="text-align: center; font-family: serif;">Poll<h2>
+        <div class="spacer"></div>
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+          <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+              <div class="spacer"></div>
+              <div class="spacer"></div>
+              <div class="spacer"></div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                  <div class="spacer"></div>
+                  <div class="spacer"></div>
+                  <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                      <div class="spacer"></div>
+                      <div class="spacer"></div>
+                      <div class="spacer"></div>
+                        <div class="spacer"></div>
+                        <div class="spacer"></div>
+                        <div class="spacer"></div>
+                          <div class="spacer"></div>
+                          <div class="spacer"></div>
+                          <div class="spacer"></div>
+                            <div class="spacer"></div>
+
+
+
+    <div class="quot"  style="font-family: serif; font-size: 16px;">
+    <h2 style="text-align: center; font-family: serif;">Contact<h2>
+      <section  id="contact">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="section-heading text-center">
+                          <div class="section-heading-line"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+              <div class="container">
+
+                      <div class="col-12 col-md-10">
+                              <form>
+                                      <div class="row">
+                                          <div class="col-12 col-md-6">
+                                              <div class="form-group">
+                                                  <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                                              </div>
+                                          </div>
+
+                                          <div class="col-12 col-md-6">
+                                              <div class="form-group">
+                                                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                              </div>
+                                          </div>
+
+                                          <div class="col-12 col-md-6">
+                                              <div class="form-group">
+                                                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                              </div>
+                                          </div>
+
+                                          <div class="col-12 col-md-6">
+                                              <div class="form-group">
+                                                  <input type="text" class="form-control" name="number" id="number" placeholder="Telephone" required>
+                                              </div>
+                                          </div>
+
+                                          <div class="col-12">
+                                              <div class="form-group">
+                                                  <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                                              </div>
+                                          </div>
+
+                                          <div class="col-12 text-center">
+                                              <button type="submit" class="btn">Send Message</button>
+                                          </div>
+                                      </div>
+
+                              </form>
+
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+                <footer>
+                  <div id="footer" >
+
+
+                    <div class="row" style="margin-left: 30px;">
+                      <div class="col-md-4">
+                        <h5 style="font-family: serif;font-size: 12px; color: white; font-weight:bold; ">About</h5>
+                        <p style="font-family: serif;font-size: 12px; color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />
+                      </div>
+                      <div class="col-md-4">
+                        <h5 style="font-family: serif;font-size: 12px; color: white; font-weight:bold;">Tweets</h5>
+                        <p style="font-family: serif;font-size: 12px; color: white;"><span>Tweet</span> <a href="#">@You</a><br />
+                          Etiam egestas, ipsum posuere accumsan sollicitudin, nulla mauris volutpat sem, sit amet rutrum risus. </p>
+                        <p style="font-family: serif;font-size: 12px; color: white;"><span>Tweet</span> <a href="#">@You</a><br />
+                          Quisque porta tellus vitae adipiscing molestie. Mauris et lacus blandit, malesuada.</p>
+                      </div>
+
+                      <div class="col-md-4">
+                        <h5 style="font-family: serif;font-size: 12px; color: white; font-weight:bold;">Address</h5>
+                        <p style="font-family: serif;font-size: 12px; color: white;">123 Upper Hill<br />
+                          Nairobi<br />
+                          Kenya<br />
+                          <br />
+                          Phone: +254 700 000 000<br />
+                          Email: info@geknowyourrepresentative.com<br />
+                          <br />
+                        </p>
+                        <div><img src="img/facebook.png"><img src="img/twitter.png"><img src="img/linkedin.png"><img src="img/google.png"></div>
+                    </div>
+                    <p style="font-family: serif;font-size: 12px; color: white;" class="text-center">&copy; Copyright Know your Representative. All Rights Reserved. 2019</p>
+                  </div>
+                  </div>
+                </footer>
